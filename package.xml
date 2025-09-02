@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>prl_ur10e_robot_configuration</name>
+  <version>0.1.0</version>
+  <description>The prl_ur10e_robot_configuration package holds the current configuration of the UR10e robot.</description>
+
+  <maintainer email="louise.manson@inria.fr">Louise Manson</maintainer>
+  <author email="louise.manson@inria.fr">Louise Manson</author>
+
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/inria-paris-robotics-lab/prl_ur10e_robot_configuration</url>
+  <url type="bugtracker">https://github.com/inria-paris-robotics-lab/prl_ur10e_robot_configuration/issues</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
