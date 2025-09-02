@@ -1,0 +1,39 @@
+# UR arm configuration
+arm:
+  arm_kinematics: "kinematics/default_kinematics.yaml"
+  arm_joint_limits: "limits/joint_kinematics.yaml"
+  arm_pose:
+    x: 0
+    y: 0
+    z: 0
+    roll: 0
+    pitch: 0
+    yaw: 0
+
+  # gripper: "onrobot-rg6-v2"
+  # gripper_controller: "onrobot-rg"
+  # gripper_pose:
+  #   x: 0.0
+  #   y: 0.0
+  #   z: 0.01
+  #   roll: 0.0
+  #   pitch: 0.0
+  #   yaw: 0.0
+  # camera: "realsense-d435i"
+  # camera_pose:
+  #   x: -1.8195086181012343e-05
+  #   y: 0.021319877717104876
+  #   z: 0.17293318092151708
+  #   roll: 0.2835816306216423
+  #   pitch: -1.5613233179664476
+  #   yaw: -1.8675144444458067
+
+  network:
+    ip: "192.168.1.21"
+    script_command_port: "50005"
+    reverse_port: "50001"
+    script_sender_port: "50002"
+    trajectory_port: "50004"
+
+# # Fixed cameras
+# fixed_cameras_file: "fixed_cameras/dataset_collection.yaml"
