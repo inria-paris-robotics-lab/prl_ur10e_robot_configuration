@@ -10,23 +10,23 @@ arm:
     pitch: 0
     yaw: 0
 
-  # gripper: "onrobot-rg6-v2"
-  # gripper_controller: "onrobot-rg"
-  # gripper_pose:
-  #   x: 0.0
-  #   y: 0.0
-  #   z: 0.01
-  #   roll: 0.0
-  #   pitch: 0.0
-  #   yaw: 0.0
+  gripper: "onrobot-rg6-v2"
+  gripper_controller: "onrobot_rg"
+  gripper_pose:
+    x: 0.0
+    y: 0.0
+    z: 0.01
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
   # camera: "realsense-d435i"
   # camera_pose:
-  #   x: -1.8195086181012343e-05
-  #   y: 0.021319877717104876
-  #   z: 0.17293318092151708
-  #   roll: 0.2835816306216423
-  #   pitch: -1.5613233179664476
-  #   yaw: -1.8675144444458067
+  #   x: 0
+  #   y: 0
+  #   z: 0
+  #   roll: 0
+  #   pitch: 0
+  #   yaw: 0
 
   network:
     ip: "192.168.1.21"
