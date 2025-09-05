@@ -14,9 +14,7 @@ EOF
 
 config_file=`rospack  find prl_ur10e_robot_configuration`/config/standard_setup.yaml
 
-# TODO
-# export PRL_CONFIG_LEFT_GRIPPER=$(parse_yaml $config_file "['left']['gripper']")
-# export PRL_CONFIG_RIGHT_GRIPPER=$(parse_yaml $config_file "['right']['gripper']")
 
-# export PRL_CONFIG_LEFT_GRIPPER_CONTROLLER=$(parse_yaml $config_file "['left']['gripper_controller']")
-# export PRL_CONFIG_RIGHT_GRIPPER_CONTROLLER=$(parse_yaml $config_file "['right']['gripper_controller']")
+export PRL_CONFIG_GRIPPER=$(parse_yaml $config_file "['arm']['gripper']")
+
+export PRL_CONFIG_GRIPPER_CONTROLLER=$(parse_yaml $config_file "['arm']['gripper_controller']")
