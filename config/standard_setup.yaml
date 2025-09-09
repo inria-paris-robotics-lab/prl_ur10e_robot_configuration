@@ -10,8 +10,8 @@ arm:
     pitch: 0
     yaw: 0
 
-  gripper: "onrobot-rg6-v2"
-  gripper_controller: "onrobot_rg"
+  gripper: "custom:no_gripper" #"weiss-wsg50" #"onrobot-rg6-v2"
+  gripper_controller: "none" #"weiss-gripper" # "onrobot-rg"
   gripper_pose:
     x: 0.0
     y: 0.0
@@ -29,11 +29,11 @@ arm:
   #   yaw: 0
 
   network:
-    ip: "192.168.1.21"
-    script_command_port: "50005"
+    ip: "192.168.56.101"
+    script_command_port: "50004"
     reverse_port: "50001"
     script_sender_port: "50002"
-    trajectory_port: "50004"
+    trajectory_port: "50003"
 
 # # Fixed cameras
 # fixed_cameras_file: "fixed_cameras/dataset_collection.yaml"

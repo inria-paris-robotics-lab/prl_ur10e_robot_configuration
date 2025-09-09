@@ -1,0 +1,15 @@
+controllers:
+  active_controllers: 
+  - joint_trajectory_controller
+  inactive_controllers:
+  - forward_velocity_controller
+  - forward_position_controller
+  unused_controllers:
+  - speed_scaling_state_broadcaster
+  - force_torque_sensor_broadcaster
+  - scaled_joint_trajectory_controller
+  - force_mode_controller
+  - freedrive_mode_controller
+  - passthrough_trajectory_controller
+  - tcp_pose_broadcaster
+  - arm_configuration_controller
