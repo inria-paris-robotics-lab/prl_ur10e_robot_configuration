@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:macro name="no_gripper_group_define" params="group_name prefix">
+        <group name="${group_name}">
+            <link name="${prefix}_base"/>
+        </group>
+    </xacro:macro>
+
+    <xacro:macro name="no_gripper_autocol" params="prefix">
+    </xacro:macro>
+
+    <xacro:macro name="no_gripper_col_with" params="prefix link">
+    </xacro:macro>
+</robot>
